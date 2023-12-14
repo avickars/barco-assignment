@@ -1,0 +1,15 @@
+
+.idea/
+cmake-build-debug
+
+post_copy.png
+
+colour_conversion_derivation/__pycache__/
+
+lib/libcuda_transformations.so
+
+barco
+
+output.png
+
+build/

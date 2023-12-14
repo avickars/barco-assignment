@@ -1,0 +1,2 @@
+#define barco_VERSION_MAJOR @barco_VERSION_MAJOR@
+#define barco_VERSION_MINOR @barco_VERSION_MINOR@
