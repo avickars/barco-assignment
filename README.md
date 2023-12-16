@@ -8,7 +8,7 @@ a colour space transformation from BT.709 to BT.2020.  The transformations are i
 - The Transformations are intentionally implemented using separate CUDA operations to maximize readability.  I do recognize that the operations could be merged to be more efficient.  For instance, in the Tint
 transformation, the channel conversion from BGR to RGB, the tint operation and the operation from RGB to BGR could be merged into a single operation. These are intentionally left as separate operations so that the transformations
 are well-defined for easy readability.
-- Aside from the above point, the program could be improved by taking advantage of TensorCores. The ability of TensorCores to significantly improve computation speed.  Furthermore, some gains 
+- Aside from the above point, the program could be improved by taking advantage of TensorCores. Furthermore, some gains 
 could be made by optimizing the kernal execute for a specific GPU as well.
 
 ## Transformations
